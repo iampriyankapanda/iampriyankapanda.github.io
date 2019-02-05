@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    width: 100%;
+    float: left;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #99bcd9;
+    font-weight: 300;
+}
+
+.talk-to-us h3 {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.talk-to-us h3 span {
+    color: #000;
+}
+
+.header-wrapper {
+    background-color: #8badf5;
+}
+
+.header-links ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+ul {
+    display: inline-block;
+    margin: 0;
+}
+
+.heading img {
+    margin-bottom: 20px;
+}
+
+.header-links ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.header-links ul li:hover {
+    background-color: #000;
+}
+
+.banner-contents h2 {
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 15px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.banner-wrapper .owl-theme .owl-nav {
+    margin: 0;
+}
+
+.banner-wrapper .owl-theme .owl-nav .owl-prev {
+    left: 0;
+}
+
+.banner-wrapper .owl-theme .owl-nav .owl-next {
+    right: 0;
+}
+.banner-wrapper .owl-theme .owl-nav .owl-prev,.banner-wrapper .owl-theme .owl-nav .owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.banner-wrapper .owl-theme .owl-nav .owl-prev.banner-contents-red {
+    background-color: red;
+}
+.banner-wrapper .owl-carousel .owl-item img{
+    width: 100%;
+}
+.banner-contents h4 {
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 5px;
+    padding: 15px 30px;
+    display: inline-block;
+}
+
+.banner-contents {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.banner-wrapper {
+    position: relative;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.white-background {
+    background-color: #fff;
+}
+
+.welcome-title h3 {
+    padding: 15px 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.welcome-paragraph p {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.font-icon-star ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.font-icon-star ul li i {
+    color: #ffb300;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.welcome-image img {
+    margin: 10px 0 0;
+}
+
+.welcome-image-holder {
+    margin: 60px 0;
+}
+
+.welcome-image {
+    position: relative;
+}
+
+.welcome-image-text a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.welcome-image-text p {
+    max-width: 40%;
+}
+
+.welcome-image-text {
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    background-color: hsla(0, 0%, 0%, 0.56);
+    padding: 10px 20px;
+    
+}
+
+.latest-ski-deal {
+    position: relative;
+}
+
+.latest-deal-background-image {
+    background-image: url(/images/Image_2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.latest-deal-contents {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px 10px;
+    margin-left: 30px;
+}
+
+.latest-title h3 {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.latest-points ul {
+    padding-left: 20px;
+}
+
+.orange-div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    background-color: #ff6c00;
+    color: #fff;
+    font-size: 18px;
+}
+
+.sub-title-latest h4 {
+    font-size: 24px;
+    color: #ff6c00;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.testimonial {
+    color: #000;
+    padding: 20px 0;
+    border-bottom: 1px solid #999;
+}
+
+.testimonial-content {
+    padding: 20px 0 0;
+}
+
+.testimonial-content p {
+    padding: 20px 0;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.testimonial-content h4 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-links ul li {
+    list-style: none;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-title h4 {
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-wrapper {
+    background-color: #8badf5;
+    padding: 20px 0px;
+}
+
+.contact p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contact p span {
+    color: #000;
+    font-weight: 400;
+}
+
+.why-us-title {
+    padding: 0 0px 25px;
+}
+
+.why-us-content {
+    color: #4d779b;
+    padding: 20px 0;
+    max-width: 60%;
+    width: 100%;
+}
+
+.padding-20px {
+    padding: 20px;
+}
+
+.why-us-text p {
+    font-size: 18px;
+}
+
+.common-heading h3 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #4d779b;
+}
+
+.why-us-title h4 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.blog-image {
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+.blog-image:hover .bigger-image-text{
+    transform: translateY(0);
+}
+.blog-heading h2 {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.image1 {
+    background-image: url('/images/Image_7.png');
+}
+
+.image2 {
+    background-image: url('/images/Image_8.png');
+}
+
+.bigger-image {
+    background-image: url('/images/Image_3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-heading {
+    padding: 10px 0;
+}
+.bigger-image:hover .bigger-image-text {
+    transform: translateY(0);
+}
+.bigger-image-text h6 {
+    padding: 10px 0;
+}
+
+.bigger-image-text a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bigger-image-text {
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    background-color: hsla(0, 0%, 0%, 0.56);
+    padding: 10px 20px;
+    transform: translateY(100%);
+    transition: all 0.3s ease;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.social-contents {
+    border: 3px solid #5683a8;
+    color: #5683a8;
+}
+
+.social-contents:hover {
+    background-color: #5683a8;
+}
+
+.social-contents:hover .social-icon {
+    border-color: #ffffff;
+}
+
+.social-contents:hover .social-icon i {
+    color: #ffffff;
+}
+
+.social-contents:hover .social-text {
+    color: #ffffff;
+}
+
+.social-icon {
+    height: 60px;
+    width: 60px;
+    border: 3px solid #5683a8;
+    border-radius: 50%;
+    display: inline-flex;
+}
+
+.social-icon i {
+    margin: auto;
+    color: #5683a8;
+    font-size: 30px;
+}
+
+.social-contents {
+    padding: 50px;
+}
+
+.social-text h4 {
+    padding: 10px 0;
+}
+
+.display-flex-align-item-center {
+    display: flex;
+    align-items: center;
+}
+
+.no-padding-left {
+    padding-left: 0;
+}
+
+.no-padding-right {
+    padding-right: 0;
+}
+
+.border-why-us {
+    border: 3px solid #5683a8;
+    margin: 0px 0px 20px;
+}
+
+.border-social {
+    border-bottom: 2px solid #ddd;
+}
+
+.border-social-top {
+    border-top: 2px solid #ddd;
+}
+
+.padding-30px {
+    padding: 30px 0;
+}
+
+.welcome-latest-testimonial-wrapper {
+    background-image: url('/images/Image_9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.welcome-wrapper {
+    position: relative;
+    margin-top: -50px;
+    z-index: 1;
+}
+@media(min-width:320px) and (max-width:639px) {
+    .direction {
+        flex-direction: column;
+    }
+    .talk-to-us h3 {
+        font-size: 18px;
+    }
+    .heading img {
+        margin-bottom: 10px;
+        height: 30px;
+    }
+    .welcome-title h3 {
+        font-size: 25px;
+    }
+    .welcome-paragraph p {
+        font-size: 15px;
+    }
+    .latest-deal-contents {
+        margin: 0px 10px;
+    }
+    .orange-div {
+        right: 10px;
+        padding: 10px;
+    }
+    .image1 {
+        margin: 10px 15px 10px 0;
+    }
+    .image2 {
+        margin: 10px 15px 10px 0;
+    }
+    .bigger-image{
+        height: 200px;
+    }
+    .no-padding-left{
+        padding-left: 15px;
+    }
+    
+    .header-links{
+        display: none;
+    }
+    .media-margin-10px {
+        margin: 10px 0;
+    }
+    .why-us-content {
+        text-align: center;
+        padding: 10px 0;
+        max-width: 50%;
+        margin: 0 auto;
+    }
+    .footer-contents {
+        padding: 10px 0; 
+    }
+    .banner-text {
+        display: block;
+    }
+    .welcome-image-text p {
+        max-width: 50%;
+    }
+    .welcome-image-text {
+        padding: 2px 20px;
+    }
+    .banner-contents h2 {
+        font-size: 18px;
+        padding: 0px 10px;
+    }
+    .banner-contents h4 {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .bigger-image-text {
+        padding: 0px 10px;
+    }
+    .bigger-text p {
+        font-size: 13px;
+    }
+    .bigger-text h6 {
+        font-size: 10px;
+    }
+    .contact p {
+        display: inline-block;
+    }
+}
+@media(min-width:640px) and (max-width:767px) {
+    .banner-text {
+        display: block;
+    }
+    .latest-deal-contents {
+        margin: 0px 10px;
+    }
+    .orange-div {
+        right: 10px;
+        padding: 10px;
+    }
+    .why-us-content {
+        text-align: center;
+        padding: 10px 0;
+        max-width: 50%;
+        margin: 0 auto;
+        min-height: 140px;
+    }
+    .footer-contents {
+        padding: 10px 0; 
+    }
+    .social-wrapper .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+    .why-us-wrapper .col-lg-3 {
+        float: left;
+        width: 50%;
+    }
+    .footer-wrapper .col-lg-3{
+        float: left;
+        width: 50%;
+    }
+}
+@media(min-width:768px) and (max-width:991px) {
+    .banner-text {
+        display: block;
+    }
+    .footer-contents {
+        padding: 10px 0; 
+    }
+    .social-wrapper .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+    .latest-deal-contents {
+        margin: 0px 10px;
+    }
+    .orange-div {
+        right: 10px;
+        padding: 10px;
+    }
+}
