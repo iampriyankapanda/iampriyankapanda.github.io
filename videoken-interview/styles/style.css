@@ -21,6 +21,10 @@ p {
     float: left;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
 body {
     font-family: 'Oswald', sans-serif;
     background-color: #99bcd9;
@@ -97,9 +101,10 @@ ul {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
 }
 .banner-wrapper .owl-theme .owl-nav .owl-prev.banner-contents-red {
-    background-color: red;
+    background-color: #8badf5;
 }
 .banner-wrapper .owl-carousel .owl-item img{
     width: 100%;
@@ -120,6 +125,7 @@ ul {
     left: 0;
     right: 0;
     transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
 }
 
 .banner-wrapper {
@@ -188,6 +194,8 @@ ul {
 
 .welcome-image-text {
     justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -332,6 +340,8 @@ ul {
 }
 .blog-image:hover .bigger-image-text{
     transform: translateY(0);
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
 }
 .blog-heading h2 {
     font-weight: 300;
@@ -359,6 +369,8 @@ ul {
 }
 .bigger-image:hover .bigger-image-text {
     transform: translateY(0);
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
 }
 .bigger-image-text h6 {
     padding: 10px 0;
@@ -371,6 +383,8 @@ ul {
 
 .bigger-image-text {
     justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -473,6 +487,7 @@ ul {
 @media(min-width:320px) and (max-width:639px) {
     .direction {
         flex-direction: column;
+        -webkit-flex-direction: column;
     }
     .talk-to-us h3 {
         font-size: 18px;
@@ -490,10 +505,7 @@ ul {
     .latest-deal-contents {
         margin: 0px 10px;
     }
-    .orange-div {
-        right: 10px;
-        padding: 10px;
-    }
+   
     .image1 {
         margin: 10px 15px 10px 0;
     }
@@ -507,18 +519,10 @@ ul {
         padding-left: 15px;
     }
     
-    .header-links{
-        display: none;
-    }
     .media-margin-10px {
         margin: 10px 0;
     }
-    .why-us-content {
-        text-align: center;
-        padding: 10px 0;
-        max-width: 50%;
-        margin: 0 auto;
-    }
+    
     .footer-contents {
         padding: 10px 0; 
     }
@@ -551,6 +555,75 @@ ul {
     .contact p {
         display: inline-block;
     }
+    .welcome-wrapper {
+        margin-top: 0;
+    }
+    .header-links ul li {
+        display: block;
+    }
+    
+    .header-links ul {
+        display: block;
+    }
+    
+    .header-links ul li a {
+        display: block;
+        font-size: 15px;
+    }
+    .header-links {
+        position: fixed;
+        top: 0;
+        left: 0;
+        max-width: 50%;
+        width: 100%;
+        background-color: #8eb0ef;
+        height: 100%;
+        bottom: 0;
+        z-index: 11;
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+    }
+    .header-links.active {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+    }
+    .heading {
+        display: flex;
+        display: -webkit-flex;
+        align-items: center;
+        -webkit-align-items: center;
+        justify-content: space-between;
+        -webkit-justify-content: space-between;
+    }
+    .header-links .close-menu {
+        position: absolute;
+        right: 0;
+        background-color: #4381e8;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        display: -webkit-flex;
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+    }
+    
+    .header-links .close-menu i {
+        margin: auto;
+        color: #fff;
+    }
+    .talk-to-us {
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .talk-to-us h3 {
+        font-size: 10px;
+    }
 }
 @media(min-width:640px) and (max-width:767px) {
     .banner-text {
@@ -559,17 +632,7 @@ ul {
     .latest-deal-contents {
         margin: 0px 10px;
     }
-    .orange-div {
-        right: 10px;
-        padding: 10px;
-    }
-    .why-us-content {
-        text-align: center;
-        padding: 10px 0;
-        max-width: 50%;
-        margin: 0 auto;
-        min-height: 140px;
-    }
+
     .footer-contents {
         padding: 10px 0; 
     }
@@ -603,5 +666,18 @@ ul {
     .orange-div {
         right: 10px;
         padding: 10px;
+    }
+}
+@media(min-width:320px) and (max-width:767px) {
+    .orange-div {
+        right: 10px;
+        padding: 10px;
+    }
+    .why-us-content {
+        text-align: center;
+        padding: 10px 0;
+        max-width: 50%;
+        margin: 0 auto;
+        min-height: 140px;
     }
 }

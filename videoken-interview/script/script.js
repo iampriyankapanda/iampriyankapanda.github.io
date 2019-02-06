@@ -35,3 +35,11 @@ $('.banner-slider_js').owlCarousel({
 });
 $('.banner-wrapper .owl-theme .owl-nav .owl-prev').html('<i class="fas fa-angle-left"></i>');
 $('.banner-wrapper .owl-theme .owl-nav .owl-next').html('<i class="fas fa-angle-right"></i>');
+
+$('.show_menu_js').click(function(){
+    $('.header-links').addClass('active');
+});
+
+$('.close_menu_js').click(function(){
+    $('.header-links').removeClass('active');
+});
